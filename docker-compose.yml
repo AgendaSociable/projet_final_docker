@@ -8,6 +8,7 @@ services:
   back-end:
     build:
       context: ./back-end
+      target: prod
     command: uvicorn main:app --host 0.0.0.0 --port 8000
     container_name: fastapi_app
     ports:

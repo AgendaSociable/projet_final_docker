@@ -7,8 +7,22 @@
 <body>
   <h1>Compteurs utilisateurs</h1>
 
-  <p>Total utilisateurs : <span id="user-count">...</span></p>
+  <p>Total utilisateurs : <span id="user-count">0</span></p>
   <button id="refresh-btn">Rafraîchir</button>
+
+  <h2>Ajouter un utilisateur</h2>
+  <form id="add-user-form">
+    <input
+      type="text"
+      id="username-input"
+      placeholder="Nom de l'utilisateur"
+      required
+    />
+    <button type="submit">Ajouter</button>
+  </form>
+
+  <h2>Liste des utilisateurs</h2>
+  <div id="users-container"></div>
 
   <script src="app.js"></script>
 </body>

@@ -5,7 +5,6 @@ WORKDIR /app
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 
-
 FROM python:3.11-slim as prod
 
 WORKDIR /app

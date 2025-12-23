@@ -1,4 +1,4 @@
 services:
   back-end:
     build:
-      target: dev
+      target: prod

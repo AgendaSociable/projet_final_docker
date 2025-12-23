@@ -24,7 +24,6 @@ secrets/
     cat_name.txt (non commité en clair ; ici c'est un exemple)
 
 README.md
-.env.example
 ```
 
 ---
